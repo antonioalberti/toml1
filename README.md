@@ -18,6 +18,8 @@ Explain how to run the project. For example:
 python main.py
 ```
 
+**Note:** To test the syntax checking functionality, place a file named `config.toml` in the project's root directory before running `main.py`.
+
 ## Contributing
 
 Information on how others can contribute to the project (optional).
