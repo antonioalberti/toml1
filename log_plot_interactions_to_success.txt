@@ -1,0 +1,58 @@
+PS C:\Users\Scalifax\workspace\AIPyCraft> python plot_interactions_to_success.py -Trials 20 -LoopsValue 10 -SolutionName toml1
+Analyzing logs for solution 'toml1' across 20 trials (max loops per trial: 10).
+Processing Trial 1: logs\tester_run_20250331_113752_run1.log
+  -> Trial 1 Result: SUCCESS (Iterations: 1)
+Processing Trial 2: logs\tester_run_20250331_113800_run2.log
+  -> Trial 2 Result: SUCCESS (Iterations: 7)
+Processing Trial 3: logs\tester_run_20250331_113834_run3.log
+  -> Trial 3 Result: SUCCESS (Iterations: 3)
+Processing Trial 4: logs\tester_run_20250331_113854_run4.log
+  -> Trial 4 Result: SUCCESS (Iterations: 1)
+Processing Trial 5: logs\tester_run_20250331_113904_run5.log
+  -> Trial 5 Result: SUCCESS (Iterations: 3)
+Processing Trial 6: logs\tester_run_20250331_113922_run6.log
+  -> Trial 6 Result: SUCCESS (Iterations: 1)
+Processing Trial 7: logs\tester_run_20250331_113930_run7.log
+  -> Trial 7 Result: SUCCESS (Iterations: 1)
+Processing Trial 8: logs\tester_run_20250331_113938_run8.log
+  -> Trial 8 Result: SUCCESS (Iterations: 1)
+Processing Trial 9: logs\tester_run_20250331_113948_run9.log
+  -> Trial 9 Result: FAILURE/ERROR (TOML parse errors found: Expected '=' after a key in a key/value pair (at line 13, column 24); Invalid value (at line 13, column 25); Invalid initial character for a key part (at line 13, column 48); Invalid initial character for a key part (at line 13, column 50))
+Processing Trial 10: logs\tester_run_20250331_114109_run10.log
+  -> Trial 10 Result: SUCCESS (Iterations: 3)
+Processing Trial 11: logs\tester_run_20250331_114133_run11.log
+  -> Trial 11 Result: FAILURE/ERROR (Runtime errors found: Failed to parse TOML file: Invalid initial character for a key part (at line 14, column 18); Failed to parse TOML file: Invalid initial character for a key part (at line 14, column 10))
+Processing Trial 12: logs\tester_run_20250331_114242_run12.log
+  -> Trial 12 Result: FAILURE/ERROR (TOML parse errors found: Invalid initial character for a key part (at line 15, column 49); Invalid initial character for a key part (at line 17, column 17))
+Processing Trial 13: logs\tester_run_20250331_114410_run13.log
+  -> Trial 13 Result: SUCCESS (Iterations: 2)
+Processing Trial 14: logs\tester_run_20250331_114421_run14.log
+  -> Trial 14 Result: FAILURE/ERROR (TOML parse errors found: Invalid initial character for a key part (at line 15, column 14); Invalid initial character for a key part (at line 15, column 10))
+Processing Trial 15: logs\tester_run_20250331_114502_run15.log
+  -> Trial 15 Result: SUCCESS (Iterations: 1)
+Processing Trial 16: logs\tester_run_20250331_114512_run16.log
+  -> Trial 16 Result: SUCCESS (Iterations: 4)
+Processing Trial 17: logs\tester_run_20250331_114539_run17.log
+  -> Trial 17 Result: SUCCESS (Iterations: 7)
+Processing Trial 18: logs\tester_run_20250331_114613_run18.log
+  -> Trial 18 Result: SUCCESS (Iterations: 1)
+Processing Trial 19: logs\tester_run_20250331_114626_run19.log
+  -> Trial 19 Result: SUCCESS (Iterations: 1)
+Processing Trial 20: logs\tester_run_20250331_114637_run20.log
+  -> Trial 20 Result: SUCCESS (Iterations: 1)
+
+--- Analysis Results ---
+Total trials requested: 20
+Trials processed (logs found): 20
+Successful trials: 16
+Failed trials (no success msg / error / 0 iters): 4
+Log files not found: 0
+
+Cumulative iterations plot saved to: plots\cumulative_iterations_plot_toml1.png
+
+Overall Statistics for 16 Successful Trials:
+  Min iterations: 1
+  Max iterations: 7
+  Mean iterations: 2.38
+  Median iterations: 1.0
+PS C:\Users\Scalifax\workspace\AIPyCraft> 
